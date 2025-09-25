@@ -1,0 +1,17 @@
+[settings]
+asdf_compat = false
+
+trusted_config_paths = [
+  "~/.config/nvim",
+  "~/.config/mise",
+]
+
+[tools]
+go = "latest"
+golangci-lint = "latest"
+lua = "latest"
+lua-language-server = "latest"
+rust = "1.89.0"
+stylua = "latest"
+zig = "latest"
+
