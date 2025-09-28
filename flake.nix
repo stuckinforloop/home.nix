@@ -48,7 +48,7 @@
         "kernelpanic" = darwin.lib.darwinSystem {
           system = "aarch64-darwin";
           specialArgs = { inherit inputs self; };
-          modules = [ ./hosts/razorpay ];
+          modules = [ ./hosts/kernelpanic ];
         };
       };
 

@@ -17,11 +17,6 @@
     ./scripts.nix
   ];
 
-  home = {
-    username = "stuckinforloop";
-    homeDirectory = "/Users/stuckinforloop";
-
-    # release branch of home-manager
-    stateVersion = "25.11";
-  };
+  # release branch of home-manager
+  home.stateVersion = "25.11";
 }
