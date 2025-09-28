@@ -16,12 +16,14 @@ This repository contains my personal Nix configuration that manages:
 .
 ├── flake.nix          # entrypoint for the nix configuration
 ├── flake.lock         # pinned dependency versions
-├── darwin/            # nix-darwin system configuration
-│   └── ...
-├── home/              # home-manager user configuration
-│   └── ...
+├── hosts/             # host-specific configurations
+│   ├── breakpoint/    # configuration for breakpoint host
+│   └── kernelpanic/   # configuration for kernelpanic host
+├── modules/           # nix modules
+│   ├── darwin/        # nix-darwin system modules
+│   │   ├── ...
+│   └── home/          # home-manager user modules
+│       └── ...
 └── dotfiles/          # frequently edited configuration files and scripts
-    ├── mise/          # mise configurations
-    ├── nvim/          # nvim configurations
-    └── scripts/       # custom shell scripts
+    └── ...
 ```

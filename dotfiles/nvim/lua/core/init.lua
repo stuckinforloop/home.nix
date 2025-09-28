@@ -7,19 +7,19 @@ local netrw = require("core.netrw")
 local options = require("core.options")
 
 function M.setup()
-	-- set options
-	options.setup()
+    -- set options
+    options.setup()
 
-	-- set keybinds
-	keymaps.setup()
+    -- set keybinds
+    keymaps.setup()
 
-	-- setup LSP
-	lsp.setup()
+    -- setup LSP
+    lsp.setup()
 
-	-- setup autocmds
-	autocmds.setup()
+    -- setup autocmds
+    autocmds.setup()
 
-	netrw.setup()
+    netrw.setup()
 end
 
 return M

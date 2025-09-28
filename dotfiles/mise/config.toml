@@ -14,4 +14,3 @@ lua-language-server = "latest"
 rust = "1.89.0"
 stylua = "latest"
 zig = "latest"
-

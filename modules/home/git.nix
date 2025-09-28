@@ -20,7 +20,7 @@
       };
       commit = {
         gpgsign = true;
-	    verbose = true;
+        verbose = true;
       };
       gpg = {
         format = "ssh";
@@ -30,25 +30,25 @@
       };
       push = {
         default = "simple";
-	      autoSetupRemote = true;
-	      followTags = true;
+        autoSetupRemote = true;
+        followTags = true;
       };
       pull = {
         rebase = true;
       };
       fetch = {
         prune = true;
-	      pruneTags = true;
-	      all = true;
+        pruneTags = true;
+        all = true;
       };
       rerere = {
         autoUpdate = true;
-	      enabled = true;
+        enabled = true;
       };
       rebase = {
         autoSquash = true;
-	      autoStash = true;
-	      updateRefs = true;
+        autoStash = true;
+        updateRefs = true;
       };
     };
   };
