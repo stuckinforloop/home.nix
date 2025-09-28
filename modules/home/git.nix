@@ -50,6 +50,9 @@
         autoStash = true;
         updateRefs = true;
       };
+      "url \"git@github.com:\"" = {
+        insteadOf = "https://github.com/";
+      };
     };
   };
 }
