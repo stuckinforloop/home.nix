@@ -8,12 +8,13 @@
     ./fish.nix
     ./git.nix
     ./nix.nix
-    ./mise.nix
-    ./nvim.nix
     ./ssh.nix
     ./zoxide.nix
 
-    # script symlinks
+    # symlinks
+    ./ghostty.nix
+    ./mise.nix
+    ./nvim.nix
     ./scripts.nix
   ];
 
